@@ -1,0 +1,11 @@
+# ignore all .txt files
+*.txt
+
+# ignore all .url files
+*.url
+
+# ignore all files in any directory named node_modules
+node_modules/
+
+# ignore package-lock.json
+package-lock.json
