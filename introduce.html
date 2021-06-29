@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1">
+    <!-- ios 전화번호형식 링크방지 -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="본죽, 본죽&비빔밥, 본도시락, 본설렁탕. 그리고 우리 음식을 만나는 스마트한 경험, 본오더">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="본아이에프">
+    <meta property="og:url" content="http://ossamuiux.com/bonif/">
+    <meta property="og:image" content="http://ossamuiux.com/bonif/images/kakao_share_default.png">
+    <meta property="og:description" content="본죽, 본죽&비빔밥, 본도시락, 본설렁탕. 그리고 우리 음식을 만나는 스마트한 경험, 본오더">
+    <title>회사소개 | 본아이에프</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico?v=1">
+    <!-- 모바일브라우저 홈화면추가시 아이콘 -->
+    <link rel="apple-touch-icon" href="images/app_home.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
+</head>
+<body>
+    <!-- 모바일 voice어시스턴트등의 스크린리더 사용시 필요함 -->
+    <div id="skipNavi">
+        <a href="#container">본문 바로가기</a>
+    </div>
+    <div id="wrap">
+        <header id="header" class="sub_header">
+            <a class="btn_open" href="#">메뉴열기</a>
+            <div class="dimm"></div>
+            <aside class="gnb_box">
+                <div class="login">
+                    <a href="#">로그인 해주세요.<i class="icon icon_barcode"></i><i class="icon icon_logout"></i></a>
+                </div>
+                <ul class="quick">
+                    <li><a href="#"><i class="icon icon_cart"></i><span>주문하기</span></a></li>
+                    <li><a href="#"><i class="icon icon_gift"></i><span>선물하기</span></a></li>
+                    <li><a href="#"><i class="icon icon_find"></i><span>메뉴찾기</span></a></li>
+                    <li><a href="#"><i class="icon icon_map"></i><span>매장검색</span></a></li>
+                </ul>
+                <ul class="order">
+                    <li><a href="#"><i class="icon icon_group"></i>단체주문</a></li>
+                    <li><a href="#"><i class="icon icon_order"></i>주문조회</a></li>
+                </ul>
+                <nav class="gnb">
+                    <ul class="depth1">
+                        <li class="even">
+                            <a href="#" class="">본아이에프</a>
+                            <ul class="depth2">
+                                <li><a href="introduce.html">회사소개</a></li>
+                                <li><a href="/contents/ideology">경영이념</a></li>
+                                <li><a href="/board/report/list">소식보기</a></li>
+                                <li><a href="/contents/share">사회공헌</a></li>
+                                <li><a href="/contents/recruit01">인재채용</a></li>
+                                <li><a href="https://www.bongroup.co.kr/bon-sustainability/ethical-management/" target="_blank">윤리경영</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">본죽</a>
+                            <ul class="depth2">
+                                <li class="double"><a href="/brand?brdCd=BF101">브랜드메인</a></li>
+                                <li><a href="/brand/introduce?brdCd=BF101">브랜드소개</a></li>
+                                <li><a href="/menu/list?brdCd=BF101">메뉴소개</a></li>
+                                <li><a href="/store/list?brdCd=BF101">매장찾기</a></li>
+                                <li><a href="/board/event/list?brdCd=BF101">이벤트</a></li>
+                                <li><a href="/order/type?brdCd=BF102">주문하기</a></li>
+                                <li><a href="/founding/founding?brdCd=BF101">창업</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">본죽&amp;비빔밥</a>
+                            <ul class="depth2">
+                                <li class="double"><a href="/brand?brdCd=BF102">브랜드메인</a></li>
+                                <li><a href="/brand/introduce?brdCd=BF102">브랜드소개</a></li>
+                                <li><a href="/menu/list?brdCd=BF102">메뉴소개</a></li>
+                                <li><a href="/store/list?brdCd=BF102">매장찾기</a></li>
+                                <li><a href="/board/event/list?brdCd=BF102">이벤트</a></li>
+                                <li><a href="/order/type?brdCd=BF102">주문하기</a></li>
+                                <li><a href="/founding/founding?brdCd=BF102">창업</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">본도시락</a>
+                            <ul class="depth2">
+                                <li class="double"><a href="/brand?brdCd=BF104">브랜드메인</a></li>
+                                <li><a href="/brand/introduce?brdCd=BF104">브랜드소개</a></li>
+                                <li><a href="/menu/list?brdCd=BF104">메뉴소개</a></li>
+                                <li><a href="/store/list?brdCd=BF104">매장찾기</a></li>
+                                <li><a href="/board/event/list?brdCd=BF104">이벤트</a></li>
+                                <li><a href="/order/type?brdCd=BF104">주문하기</a></li>
+                                <li><a href="/founding/founding?brdCd=BF104">창업</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">본설렁탕</a>
+                            <ul class="depth2">
+                                <li class="double"><a href="/brand?brdCd=BF105">브랜드메인</a></li>
+                                <li><a href="/brand/introduce?brdCd=BF105">브랜드소개</a></li>
+                                <li><a href="/menu/list?brdCd=BF105">메뉴소개</a></li>
+                                <li><a href="/store/list?brdCd=BF105">매장찾기</a></li>
+                                <li><a href="/board/event/list?brdCd=BF105">이벤트</a></li>
+                                <li><a href="/order/type?brdCd=BF105">주문하기</a></li>
+                                <li><a href="/founding/founding?brdCd=BF105">창업</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">베이비본죽</a>
+                            <ul class="depth2">
+                                <li class="double"><a href="/brand?brdCd=9000">브랜드메인</a></li>
+                                <li><a href="/brand/introduce?brdCd=9000">브랜드소개</a></li>
+                                <li><a href="/contents/baby/menu">메뉴소개</a></li>
+                                <li><a href="/contents/baby/foodlab01">본푸드랩 소개</a></li>
+                                <li><a href="/contents/baby/order">주문하기</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">본몰</a>
+                            <ul class="depth2">
+                                <li class="double"><a href="/brand?brdCd=9200">브랜드메인</a></li>
+                                <li><a href="/brand/introduce?brdCd=9200">브랜드소개</a></li>
+                                <li><a href="/contents/bonmall/product" id="M0802">상품 소개</a></li>
+                                <li><a href="/contents/bonmall/shop" id="M0803">쇼핑혜택</a></li>
+                                <li><a href="/contents/bonmall/order" id="M0804">주문하기</a></li>
+                                <li><a href="https://www.bonmall.co.kr/U/M/CS/Req/Write/" target="_blank" id="M0805">대량주문</a></li>
+                                <li>&nbsp;</li>
+                            </ul>
+                        </li>
+                        <li class="even">
+                            <a href="/founding/founding">창업안내</a>
+                            <ul class="depth2">
+                                <li><a href="/founding/founding">창업안내</a></li>
+                                <li><a href="/founding/write">창업상담</a></li>
+                                <li><a href="/founding/fair/view">창업설명회</a></li>
+                                <li><a href="/founding/story/list">성공 스토리</a></li>
+                                <li><a href="/founding/store/list">추천상권</a></li>
+                                <li><a href="/founding/board/list">창업소식</a></li>
+                            </ul>
+                        </li>
+                        <li class="even">
+                            <a href="#">고객센터</a>
+                            <ul class="depth2">
+                                <li><a href="/help/qna/write">1:1 문의</a></li>
+                                <li><a href="/help/faq/list">FAQ</a></li>
+                                <li><a href="/help/notice/list">공지사항</a></li>
+                                <li><a href="/help/survey/ing/list">설문조사</a></li>
+                                <li><a href="/contents/ccm">소비자중심경영</a></li>
+                                <li><a href="/help/newProject/write">제안해주세요</a></li>
+                                <li><a href="/contents/partner01">협력사를 모십니다</a></li>
+                                <li>&nbsp;</li>
+                            </ul>
+                        </li>
+                        <li class="even">
+                            <a href="#">주문</a>
+                            <ul class="depth2">
+                                <li><a href="/order/simple">간편주문</a></li>
+                                <li><a href="/order/brand">일반주문</a></li>
+                                <li><a href="/group">단체주문</a></li>
+                                <li><a href="/giftMain">선물하기</a></li>
+                                <li><a href="/gcardMain">기프트카드</a></li>
+                                <li><a href="/mgift/menu">모바일 메뉴교환권</a></li>
+                                <li><a href="/paper">지류상품권</a></li>
+                                <li><a href="/board/event/list">이벤트</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="customer">
+                    <h3>본오더(온라인 주문) 전용 콜센터<strong>1668 - 3944</strong></h3>
+                    <p>평일, 주말<span></span>10:00~21:00</p>
+                </div>
+                <div class="customer">
+                    <h3>고객만족센터<strong>1644 - 6288</strong></h3>
+                    <p>월~금 09:00~18:00
+                        토/일/공휴일 휴무</p>
+                </div>
+                <ul class="link">
+                    <li><a href="#">마이페이지</a></li>
+                    <li><a href="#">1:1 문의</a></li>
+                </ul>
+            </aside>
+            <button class="btn_close" type="button">메뉴닫기</button>
+            <h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="본아이에프"></a></h1>
+            <div class="btn_wrap">
+                <a class="btn_login" href="#">로그인</a>
+                <button class="btn_search_toggle" type="button">검색 열기</button>
+            </div>
+            <!-- 통합검색 -->
+            <div class="search_box">
+                <div class="search_wrap">
+                    <div class="top_search">
+                        <div class="select_wrap">
+                            <select id="inc_brdCd" title="브랜드별 검색">
+                                <option value="">브랜드별 검색</option>
+                                <option value="BF101">본죽</option>
+                                <option value="BF102">본죽&amp;비빔밥</option>
+                                <option value="BF104">본도시락</option>
+                                <option value="BF105">본설렁탕</option>
+                            </select>
+                        </div>
+                        <div class="input_wrap">
+                            <input id="inc_schKey" type="text" title="검색어입력">
+                            <a class="btn_remove" href="#">검색어 삭제</a>
+                            <a class="btn_search" href="#"><img src="images/btn_search.png" alt="검색"></a>
+                        </div>
+                    </div>
+                    <div class="link_box_scroll">
+                        <div class="link_box">
+                            <h3>오늘의 키워드</h3>
+                            <div class="link_wrap">
+                                <a class="point" href="#">선물</a>
+                                <a href="#">해장</a>
+                                <a href="#">원기회복</a>
+                                <a class="point" href="#">보양식</a>
+                                <a href="#">다이어트</a>
+                                <a href="#">술안주</a>
+                            </div>
+                        </div>
+                        <div class="link_box link_box2">
+                            <h3>본 인기메뉴</h3>
+                            <ul class="link_wrap">
+                                <li><a href="#">해물김치해장죽</a></li>
+                                <li><a href="#">쇠고기야채죽</a></li>
+                                <li><a href="#">광양식바싹불고기 반상</a></li>
+                                <li><a href="#">백설</a></li>
+                                <li><a href="#">바싹불고기오징어 한상</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- // 통합검색 -->
+        </header>
+        <div id="container" class="sub_container introduce_container">
+            <div class="sub_fix">
+                <div class="lnb_wrap">
+                    <a class="btn_link" href="index.html">메인페이지</a>
+                    <div class="lnb">
+                        <button class="btn_lnb" type="button">회사소개</button>
+                        <ul class="list_lnb">
+                            <li class="active"><a href="introduce.html">회사소개</a></li>
+                            <li><a href="/contents/ideology">경영이념</a></li>
+                            <li><a href="/board/report/list">소식보기</a></li>
+                            <li><a href="/contents/share">사회공헌</a></li>
+                            <li><a href="/contents/recruit01">인재채용</a></li>
+                            <li>&nbsp;</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sub_tab_wrap">
+                    <ul class="sub_tab">
+                        <li class="active"><a href="introduce.html">회사소개</a></li>
+                        <li><a href="culture.html">기업문화</a></li>
+                        <li><a href="#">연혁/수상</a></li>
+                        <li><a href="#">CI/BI 소개</a></li>
+                        <li><a href="#">오시는길</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contents">
+                <div class="top_txt">
+                    <p class="txt1">본아이에프는 <em class="txt_red">행복한 삶</em>을 추구하는<br>지식프랜차이즈 기업입니다.</p>
+                    <p class="txt2">The Knowledge Franchise Group<br>Creating a Better Life</p>
+                </div>
+                <ol class="introduce">
+                    <li>
+                        <div class="bg"></div>
+                        <div class="txt">
+                            <em class="txt_red">01</em>
+                            <h3>한식을 가장 잘 아는 기업</h3>
+                            <p>건강한 우리 음식을 고객 모두가 더욱 편리하고, 맛있게, 그리고 믿고 즐길 수 있도록 한식을 꾸준히 연구하고 있습니다.</p>
+                            <p>본아이에프는 한식에 대한 끊임없는 궁금증과 열정, 오랜 경험을 바탕으로 고객이 ‘어디에서나 쉽게 만날 수 있는’ 한식 전문 프랜차이즈 기업으로 완성해 나가고 있습니다.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bg"></div>
+                        <div class="txt">
+                            <em class="txt_red">02</em>
+                            <h3>한식을 가장 잘 아는 기업</h3>
+                            <p>건강한 우리 음식을 고객 모두가 더욱 편리하고, 맛있게, 그리고 믿고 즐길 수 있도록 한식을 꾸준히 연구하고 있습니다.</p>
+                            <p>본아이에프는 한식에 대한 끊임없는 궁금증과 열정, 오랜 경험을 바탕으로 고객이 ‘어디에서나 쉽게 만날 수 있는’ 한식 전문 프랜차이즈 기업으로 완성해 나가고 있습니다.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bg"></div>
+                        <div class="txt">
+                            <em class="txt_red">03</em>
+                            <h3>한식을 가장 잘 아는 기업</h3>
+                            <p>건강한 우리 음식을 고객 모두가 더욱 편리하고, 맛있게, 그리고 믿고 즐길 수 있도록 한식을 꾸준히 연구하고 있습니다.</p>
+                            <p>본아이에프는 한식에 대한 끊임없는 궁금증과 열정, 오랜 경험을 바탕으로 고객이 ‘어디에서나 쉽게 만날 수 있는’ 한식 전문 프랜차이즈 기업으로 완성해 나가고 있습니다.</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <footer id="footer">
+            <ul class="footer_tel">
+                <li>본오더(온라인 주문) 전용 콜센터 <a href="tel:1668-3944">1668 - 3944</a></li>
+                <li>대표번호 <a href="tel:1668-3944">1668 - 3944</a></li>
+                <li>창업문의 <a href="tel:1668-3944">1668 - 3944</a></li>
+            </ul>
+            <div class="bottom_footer">
+                <div class="sns">
+                    <a href="#">인스타그램</a>
+                    <a href="#">유튜브</a>
+                    <a href="#">페이스북</a>
+                    <a href="#">블로그</a> 
+                </div>
+                <ul class="link">
+                    <li><a href="/contents/terms">이용약관</a></li>
+                    <li><a href="/contents/privacy/privacy" class="txt_white">개인정보처리방침</a></li>
+                    <li><a href="/contents/email">이메일 무단수집거부</a></li>
+                    <li><a href="/contents/legal">법적고지</a></li>
+                </ul>
+                <p class="addr">본아이에프(주) <span>서울특별시 영등포구 선유로 165</span>
+                    (양평동3가, 와이피센터) 6층
+                    대표자명 : 김철호, 이진희 <span>사업자등록번호 101-86-07256</span>
+                    통신판매신고번호 : 2019-서울영등포-1230호</p>
+                <p class="copyright">COPYRIGHT 2018 BONIF CO. LTD. ALL RIGHTS RESERVED.</p>
+                <div class="select_wrap">
+                    <select>
+                        <option value="">FAMILY SITE</option>
+                        <option value="https://www.bongroup.co.kr/">본그룹</option>
+                        <option value="https://www.bonmall.co.kr/U/W/Main/Index/">본몰</option>
+                        <option value="http://www.bonlove.or.kr/">본사랑</option>
+                        <option value="http://bonmission.or.kr/">본월드미션</option>
+                        <option value="http://bonfs.co.kr/">본푸드서비스</option>
+                        <option value="https://www.babybon.co.kr/">베이비본죽</option>
+                        <option value="http://bansang.co.kr/m/">본우리반상</option>
+                    </select>
+                </div>
+            </div>
+            <div class="btn_top">
+                <a href="#"><img src="images/ico_pagetop.png" alt="페이지 상단 이동"></a>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js?v=<?php echo time(); ?>"></script>
+</body>
+</html>
